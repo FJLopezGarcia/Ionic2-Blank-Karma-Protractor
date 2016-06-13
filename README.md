@@ -19,7 +19,7 @@ $ webdriver-manager update
 1. All unit tests should be added as __app/***/*.spec.ts__
   * This is the Angular2 convention.
   * See __testing/template.spec.ts__ for a template.
-2. In the terminal, run ```karma start testing\karma.conf.js```
+2. In the terminal, run ```karma start testing/karma.conf.js```
 3. Test results are reported in the terminal window.
 4. They are also saved to the disk at __/testing/unit-tests/results/*.html__
 
@@ -29,7 +29,7 @@ $ webdriver-manager update
 2. In a new terminal window, run ```webdriver-manager start```.
   * This starts the selenium server. Keep this window open.
 3. In a new terminal window, run ```ionic serve```.
-4. In a new terminal window, run ```protractor testing\protractor.conf.js```.
+4. In a new terminal window, run ```protractor testing/protractor.conf.js```.
 5. Test results are reported in the terminal window.
 6. They are also saved to the disk at __/testing/end-to-end-tests/.html__
 
