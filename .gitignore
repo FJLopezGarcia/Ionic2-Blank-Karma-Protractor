@@ -2,4 +2,6 @@ node_modules/
 www/build/
 platforms/
 plugins/
+testing/unit-tests
+testing/end-to-end-tests
 .DS_Store

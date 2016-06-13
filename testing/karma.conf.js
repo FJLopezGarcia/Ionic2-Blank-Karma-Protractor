@@ -71,7 +71,7 @@ module.exports = function(config) {
     ],
 
     htmlReporter: {
-      outputFile: 'unit-tests/' + today + '.html',
+      outputFile: 'testing/unit-tests/' + today + '.html',
       pageTitle: 'Unit Tests',
       subPageTitle: 'Project Test Results',
       useLegacyStyle: false
